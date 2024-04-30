@@ -1,0 +1,18 @@
+<div class="star-wars-intro">
+
+    <!-- Blue Intro Text -->
+    <p class="intro-text">{{intro}}</p>
+
+    <!-- Logo Image or Text goes in here -->
+    <h2 class="main-logo">
+        <img src="{{logo}}"/>
+    </h2>
+
+    <!-- All Scrolling Content Goes in here -->
+    <div class="main-content">
+        <div class="title-content">
+            {{!-- <slot name="items"></slot> --}}
+            <slot></slot>
+        </div>
+    </div>
+</div>

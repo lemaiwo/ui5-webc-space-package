@@ -1,0 +1,9 @@
+/* .space-article {
+    position: absolute;
+    top: 100%;
+    animation: scroll 120s linear 4s forwards;
+} */
+
+.space-article>h2 {
+    text-align: center;
+}
